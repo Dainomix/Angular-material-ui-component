@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from "@angular/material/button";
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
+import { MatBadgeModule } from "@angular/material/badge";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
 import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
+import { BadgeComponent } from './badge/badge.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
     TypographyComponent,
     ButtonComponent,
     TogglebuttonComponent,
+    BadgeComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +30,7 @@ import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
     MatSliderModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatBadgeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
