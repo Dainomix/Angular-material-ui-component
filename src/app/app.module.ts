@@ -13,6 +13,7 @@ import { MatChipsModule } from "@angular/material/chips";
 import { MatIconModule } from "@angular/material/icon";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatProgressBarModule } from "@angular/material/progress-bar";
+import { MatCardModule } from "@angular/material/card";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -22,6 +23,7 @@ import { ChipsComponent } from './chips/chips.component';
 import { IconComponent } from './icon/icon.component';
 import { ProgressspinnerComponent } from './progressspinner/progressspinner.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
     IconComponent,
     ProgressspinnerComponent,
     ProgressbarComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +50,7 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
     MatIconModule,
     MatProgressSpinnerModule,
     MatProgressBarModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
