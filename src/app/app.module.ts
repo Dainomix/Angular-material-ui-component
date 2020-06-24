@@ -10,12 +10,14 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatBadgeModule } from "@angular/material/badge";
 import { MatChipsModule } from "@angular/material/chips";
+import { MatIconModule } from "@angular/material/icon";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
 import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
 import { BadgeComponent } from './badge/badge.component';
 import { ChipsComponent } from './chips/chips.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { ChipsComponent } from './chips/chips.component';
     TogglebuttonComponent,
     BadgeComponent,
     ChipsComponent,
+    IconComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +38,7 @@ import { ChipsComponent } from './chips/chips.component';
     MatButtonToggleModule,
     MatBadgeModule,
     MatChipsModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
