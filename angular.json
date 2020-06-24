@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "learn-material": {
+    "Angular-material-ui-component": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/learn-material",
+            "outputPath": "dist/Angular-material-ui-component",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "learn-material:build"
+            "browserTarget": "Angular-material-ui-component:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "learn-material:build:production"
+              "browserTarget": "Angular-material-ui-component:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "learn-material:build"
+            "browserTarget": "Angular-material-ui-component:build"
           }
         },
         "test": {
@@ -112,18 +112,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "learn-material:serve"
+            "devServerTarget": "Angular-material-ui-component:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "learn-material:serve:production"
+              "devServerTarget": "Angular-material-ui-component:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "learn-material",
+  "defaultProject": "Angular-material-ui-component",
   "cli": {
     "analytics": "5c16833c-96c1-4f20-8484-9e78a8bce8b0"
   }

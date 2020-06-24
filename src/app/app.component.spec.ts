@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'learn-material'`, () => {
+  it(`should have as title 'Angular-material-ui-component'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('learn-material');
+    expect(app.title).toEqual('Angular-material-ui-component');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('learn-material app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Angular-material-ui-component app is running!');
   });
 });
