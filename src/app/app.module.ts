@@ -11,6 +11,7 @@ import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatBadgeModule } from "@angular/material/badge";
 import { MatChipsModule } from "@angular/material/chips";
 import { MatIconModule } from "@angular/material/icon";
+import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -18,6 +19,7 @@ import { TogglebuttonComponent } from './togglebutton/togglebutton.component';
 import { BadgeComponent } from './badge/badge.component';
 import { ChipsComponent } from './chips/chips.component';
 import { IconComponent } from './icon/icon.component';
+import { ProgressspinnerComponent } from './progressspinner/progressspinner.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { IconComponent } from './icon/icon.component';
     BadgeComponent,
     ChipsComponent,
     IconComponent,
+    ProgressspinnerComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +42,7 @@ import { IconComponent } from './icon/icon.component';
     MatBadgeModule,
     MatChipsModule,
     MatIconModule,
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
