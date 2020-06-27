@@ -20,6 +20,7 @@ import { MatListModule } from "@angular/material/list";
 import { MatStepperModule } from "@angular/material/stepper";
 import { MatTabsModule } from "@angular/material/tabs";
 import { MatGridListModule } from "@angular/material/grid-list";
+import { MatToolbarModule } from "@angular/material/toolbar";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -36,6 +37,7 @@ import { StepperComponent } from './stepper/stepper.component';
 import { TabComponent } from './tab/tab.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { CustomlayoutComponent } from './customlayout/customlayout.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +57,7 @@ import { CustomlayoutComponent } from './customlayout/customlayout.component';
     TabComponent,
     GridlistComponent,
     CustomlayoutComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -75,6 +78,7 @@ import { CustomlayoutComponent } from './customlayout/customlayout.component';
     MatStepperModule,
     MatTabsModule,
     MatGridListModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
