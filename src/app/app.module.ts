@@ -17,6 +17,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from "@angular/material/expansion";
 import { MatListModule } from "@angular/material/list";
+import { MatStepperModule } from "@angular/material/stepper";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -29,6 +30,7 @@ import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { CardComponent } from './card/card.component';
 import { DividerandexpansionComponent } from './dividerandexpansion/dividerandexpansion.component';
 import { ListComponent } from './list/list.component';
+import { StepperComponent } from './stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,7 @@ import { ListComponent } from './list/list.component';
     CardComponent,
     DividerandexpansionComponent,
     ListComponent,
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,6 +64,7 @@ import { ListComponent } from './list/list.component';
     MatDividerModule,
     MatExpansionModule,
     MatListModule,
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
