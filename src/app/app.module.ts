@@ -16,6 +16,7 @@ import { MatProgressBarModule } from "@angular/material/progress-bar";
 import { MatCardModule } from "@angular/material/card";
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from "@angular/material/expansion";
+import { MatListModule } from "@angular/material/list";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -27,6 +28,7 @@ import { ProgressspinnerComponent } from './progressspinner/progressspinner.comp
 import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { CardComponent } from './card/card.component';
 import { DividerandexpansionComponent } from './dividerandexpansion/dividerandexpansion.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { DividerandexpansionComponent } from './dividerandexpansion/dividerandex
     ProgressbarComponent,
     CardComponent,
     DividerandexpansionComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +60,7 @@ import { DividerandexpansionComponent } from './dividerandexpansion/dividerandex
     MatCardModule,
     MatDividerModule,
     MatExpansionModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
