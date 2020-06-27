@@ -35,6 +35,7 @@ import { ListComponent } from './list/list.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabComponent } from './tab/tab.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
+import { CustomlayoutComponent } from './customlayout/customlayout.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { GridlistComponent } from './gridlist/gridlist.component';
     StepperComponent,
     TabComponent,
     GridlistComponent,
+    CustomlayoutComponent,
   ],
   imports: [
     BrowserModule,
