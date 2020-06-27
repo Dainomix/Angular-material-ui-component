@@ -1,0 +1,18 @@
+<div class="container">
+    <br><br><br><br><br><br><br><br>
+   
+    <button mat-button [matMenuTriggerFor]="menu">Open Menu</button>
+    <mat-menu #menu="matMenu" yPosition="below" xPosition="before">
+        <button mat-menu-item>First Item menu</button>
+        <button mat-menu-item>Second Item</button>
+        <button mat-menu-item>Third Item</button>
+        <button mat-menu-item [matMenuTriggerFor]="subMenu">Fourth Item</button>
+    </mat-menu>
+
+    <mat-menu #subMenu="matMenu">
+        <button mat-menu-item>Fourth 1</button>
+        <button mat-menu-item>Fourth 2</button>
+        <button mat-menu-item>Fourth 3</button>
+        <button mat-menu-item>Fourth 4</button>
+    </mat-menu>
+</div>
