@@ -22,6 +22,7 @@ import { MatTabsModule } from "@angular/material/tabs";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatMenuModule } from "@angular/material/menu";
+import { MatSidenavModule } from "@angular/material/sidenav";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -40,6 +41,7 @@ import { GridlistComponent } from './gridlist/gridlist.component';
 import { CustomlayoutComponent } from './customlayout/customlayout.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MenuComponent } from './menu/menu.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +63,7 @@ import { MenuComponent } from './menu/menu.component';
     CustomlayoutComponent,
     ToolbarComponent,
     MenuComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,6 +86,7 @@ import { MenuComponent } from './menu/menu.component';
     MatGridListModule,
     MatToolbarModule,
     MatMenuModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

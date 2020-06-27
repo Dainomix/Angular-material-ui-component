@@ -1,0 +1,14 @@
+<div class="container">
+    <mat-sidenav-container>
+        <!-- side over push -->
+        <mat-sidenav mode="over" #sidenav closed>The Sidenav</mat-sidenav>
+        <mat-sidenav mode="push" #sidenavend closed position="end">The right Sidenav</mat-sidenav>
+
+        <div>
+            <p>The main Content</p>
+            <button mat-button (click)=sidenav.toggle()>Toggle the Sidenav</button>
+            <button mat-button (click)=sidenavend.toggle()>Toggle right one</button>
+        </div>
+        
+    </mat-sidenav-container>
+</div>
