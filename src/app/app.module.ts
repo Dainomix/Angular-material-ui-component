@@ -24,6 +24,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatPaginatorModule } from "@angular/material/paginator";
+import { MatTableModule } from "@angular/material/table";
 
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
@@ -45,6 +46,7 @@ import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { SidedrawerComponent } from './sidedrawer/sidedrawer.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +71,7 @@ import { PaginationComponent } from './pagination/pagination.component';
     SidenavComponent,
     SidedrawerComponent,
     PaginationComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
@@ -93,6 +96,7 @@ import { PaginationComponent } from './pagination/pagination.component';
     MatMenuModule,
     MatSidenavModule,
     MatPaginatorModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
