@@ -1,0 +1,13 @@
+<div class="container">
+    <!-- Mat drawer container cannot have the position absolute
+    because it's something which should cover the certain parts of the applicatio
+    if you go with the position absolute, it would cover the whole criminal element
+    because when you use its position absolute, you just got out of any kind of tag-->
+    <mat-drawer-container>
+        <!-- side over push -->
+        <mat-drawer mode="side" #sidedrawer closed>The side drawer</mat-drawer>
+        <mat-drawer-content>The main drawer Content
+            <button mat-button (click)="sidedrawer.toggle()">Toggle Side Drawer</button>
+        </mat-drawer-content>
+    </mat-drawer-container>
+</div>

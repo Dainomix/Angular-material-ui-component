@@ -42,6 +42,7 @@ import { CustomlayoutComponent } from './customlayout/customlayout.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { SidedrawerComponent } from './sidedrawer/sidedrawer.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     ToolbarComponent,
     MenuComponent,
     SidenavComponent,
+    SidedrawerComponent,
   ],
   imports: [
     BrowserModule,
